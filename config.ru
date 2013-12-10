@@ -1,3 +1,3 @@
-require './game'
+require './app'
 
-run RPS_App
+run Playlister_App
