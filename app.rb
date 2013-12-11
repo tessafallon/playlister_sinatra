@@ -10,6 +10,11 @@ require './lib/song.rb'
 require './lib/parser.rb'
 
 class Playlister_App < Sinatra::Application
+
+	before do 
+		parse_directory("./data")
+	end
+
 	get '/playlister' do
 		erb :playlister
 	end
