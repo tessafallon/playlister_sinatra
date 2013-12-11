@@ -1,5 +1,4 @@
 <h1>Artists</h1>
 <% @artist_list.each do |artist_name| %>
-	<p><%= artist_name %></p>
+	<p><a href="/playlister/artist/<%= artist_name %>"> <%=artist_name %> </a></p>
 <% end %>
-<a href="/playlister"> - restart - </a>

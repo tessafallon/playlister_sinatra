@@ -22,6 +22,8 @@ GEM
       rack (~> 1.4)
       rack-protection (~> 1.4)
       tilt (~> 1.3, >= 1.3.4)
+    sinatra-partial (0.4.0)
+      sinatra
     tilt (1.4.1)
     tux (0.3.0)
       ripl (>= 0.3.5)
@@ -36,4 +38,5 @@ DEPENDENCIES
   bootstrap
   shotgun
   sinatra
+  sinatra-partial
   tux

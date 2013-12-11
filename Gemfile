@@ -8,3 +8,4 @@ group :development do
 end
 
 gem "bootstrap"
+gem "sinatra-partial"

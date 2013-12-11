@@ -2,8 +2,8 @@ class Song
   attr_accessor :artist, :genre, :name
 
   def self.list
-    all.each_with_index do |o, index|
-      puts "#{index+1}. #{o.name}"
+    all.each_with_index.map do |o, index|
+      "#{index+1}. #{o.name}"
     end
   end
 
